@@ -1,7 +1,3 @@
-# AWS ECS Terraform module
-
-## This module creates AWS ECS cluster
-```
 region          = "us-east-1"
 cluster_name    = "my-cluster"
 cluster_version = "1.18"
@@ -19,4 +15,3 @@ tags = {
   Environment = "Dev"
   Team        = "DevOps"
 }
-```
